@@ -2,6 +2,7 @@
 
 http:
   rewrite:
-    - ^https?://wximg\\.wxs\\.qq\\.com/141/20204/snscosdownload/SZ/reserved/.* - reject
-    - ^https?://pgdt\\.gtimg\\.cn/141/20204/snscosdownload/SZ/reserved/.* - reject
-    - ^https?://wxsmw\\.wxs\\.qq\\.com/\\d+/\\d+/snssvpdownload/[A-Z]{2}/reserved/ads_.*\\.mp4.*  - reject
+    - ^https?://wximg\\.wxs\\.qq\\.com/\\d+/\\d+/snscosdownload/[A-Z]{2}/reserved/ads_.*  - reject
+    - ^https?://pgdt\\.gtimg\\.cn/\\d+/\\d+/snscosdownload/[A-Z]{2}/reserved/ads_.*  - reject
+    - ^https?://adsmind\\.gdtimg\\.con/ads_.*  - reject
+    - ^https?://wxsmw\\.wxs\\.qq\\.com/\\d+/\\d+/snssvpdownload/[A-Z]{2}/reserved/ads_.*  - reject
