@@ -1,7 +1,7 @@
 name: 微信
 
 http:
-  url-rewrite:
+  rewrite:
     - ^https?://wximg.wxs.qq.com - reject-200
     - ^https?://pgdt.gtimg.cn - reject-200
     - ^https?://adsmind.gdtimg.com/ads_.* - reject-200
